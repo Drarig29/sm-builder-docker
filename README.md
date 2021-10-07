@@ -44,4 +44,4 @@ scripting/
 ## Thanks 💗
 
 - To [@splewis](https://github.com/splewis) for his amazing build tool.
-- To [@Apfelwurm](https://github.com/Apfelwurm) for his work on https://github.com/splewis/get5/pull/572 and https://github.com/splewis/get5/pull/587 to create the original version of the Dockerfile for [get5](https://github.com/splewis/get5).
+- To [@Apfelwurm](https://github.com/Apfelwurm) for his work on [#572](https://github.com/splewis/get5/pull/572) and [#587](https://github.com/splewis/get5/pull/587) to create the original version of the Dockerfile for [get5](https://github.com/splewis/get5).
