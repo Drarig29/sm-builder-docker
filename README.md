@@ -15,7 +15,7 @@ Thanks to this image, you don't have anymore to:
 Just go in your SourceMod plugin's root folder, and run the following:
 
 ```bash
-docker run --rm -v $(pwd):/src -v $(pwd)/out:/out sm-builder:latest
+docker run --rm -v $(pwd):/src -v $(pwd)/out:/out drarig29/sm-builder:latest
 ```
 
 A common plugin structure is:
