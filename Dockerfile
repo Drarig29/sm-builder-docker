@@ -5,7 +5,6 @@ ENV SMVERSION 1.10
 ENV _clean="rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*"
 ENV _apt_clean="eval apt-get clean && $_clean"
 
-# Install support pkgs
 RUN apt-get update -qqy && DEBIAN_FRONTEND=noninteractive apt-get install -y \
     curl wget nano net-tools gnupg2 git lib32stdc++6 python \
     python-pip tar bash && $_apt_clean
