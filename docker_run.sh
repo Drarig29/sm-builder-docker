@@ -17,7 +17,7 @@ if [ ! -f ./smbuild ]; then
     main_file=${script_files[0]}
     plugin_name=$(basename $main_file .sp)
 
-    echo -e "Creating one automatically for: $plugin_name\n"
+    echo -e "Creating it automatically for: $plugin_name\n"
 
     echo "Plugin(source='scripting/get5_eventapi.sp')"  >   ./smbuild
     echo "Package(name='get5_eventapi',"                >>  ./smbuild
@@ -34,4 +34,4 @@ echo -e "\nBuilding the plugin..."
 smbuilder --flags='-E'
 cp -rf /builder/builds/* /out/
 
-echo -e "\nPlugin successfully build! 🎉"
+echo -e "\nPlugin successfully built! 🎉"
