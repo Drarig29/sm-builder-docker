@@ -1,5 +1,8 @@
 # sm-builder
 
+![Docker Image Version (latest by date)](https://img.shields.io/docker/v/drarig29/sm-builder)
+![Docker Image workflow](https://github.com/Drarig29/sm-builder-docker/actions/workflows/main.yml/badge.svg)
+
 This repository generates a Docker image providing [sm-builder](https://github.com/splewis/sm-builder), which is a build/package tool to compile SourceMod plugins.
 
 Thanks to this image, you don't have anymore to:
