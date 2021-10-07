@@ -18,6 +18,8 @@ Just go in your SourceMod plugin's root folder, and run the following:
 docker run --rm -v $(pwd):/src -v $(pwd)/out:/out drarig29/sm-builder:latest
 ```
 
+You will find the artefacts in the `./out` folder.
+
 A common plugin structure is:
 
 ```
